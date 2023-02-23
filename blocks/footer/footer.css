@@ -1,0 +1,11 @@
+.footer {
+    width: 93%;
+    min-height: 18px;
+    display: flex;
+    margin-left: 48px;
+    margin-right: 48px;
+    margin-top: 92px;
+    justify-content: space-between;
+    font-family: 'Inter';
+    font-style: normal;
+}

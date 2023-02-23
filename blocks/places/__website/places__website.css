@@ -1,0 +1,9 @@
+.places__website {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    max-width: 456px;
+    grid-area: website;
+    font-family: 'Inter';
+}

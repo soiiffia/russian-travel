@@ -1,0 +1,9 @@
+.places__place {
+    width: 100%;
+    display: grid;
+    grid-template-columns: minmax(1fr, max-content) minmax(min-content, max-content);
+    grid-template-areas:
+    "title website"
+    "image paragraphs";
+    gap: 48px 40px;
+}
