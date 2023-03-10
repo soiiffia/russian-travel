@@ -7,3 +7,27 @@
     "image paragraphs";
     gap: 48px 40px;
 }
+
+@media screen and (max-width: 720px) {
+    .places__place {
+        width: 100%;
+        grid-template-areas: 
+        "title"
+        "website"
+        "image"
+        "paragraphs";
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .places__place {
+        width: 100%;
+        grid-template-areas: 
+        "title"
+        "website"
+        "image"
+        "paragraphs";
+        gap: 50px;
+    }
+}

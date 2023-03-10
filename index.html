@@ -5,15 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link type="text/css" href="./index.css" rel="stylesheet">
+    <link type="text/css" href="./pages/index.css" rel="stylesheet">
 </head>
 <body>
+    <div class="container">
     <div class="page">
         <header class="header">
             <img src="sprint-3-images/header-logo.svg" alt="Лого" class="header__logo">
             <div class="header__link">
-                <p class="header__lang-link-ru">Ru</p>
-                <p class="header__lang-link-en">En</p>
+                <p class="header__lang-link header__lang-link_active">Ru</p>
+                <p class="header__lang-link">En</p>
             </div>
         </header>
         <main>
@@ -26,11 +27,13 @@
             <section class="intro">
                 <h2 class="intro__title">Чего мы там не видели?</h2>
                 <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
-                <p class="intro__list">Часовых поясов 11
-                    Объектов природного наследия ЮНЕСКО 12
-                    Объектов культурного наследия ЮНЕСКО 16
-                    Природных заповедников 105
-                    Аэропортов 241</p>
+                <ul class="intro__list">
+                    <li class="intro__list-item"><span>Часовых поясов</span> 11</li>
+                    <li class="intro__list-item"><span>Объектов природного наследия ЮНЕСКО</span> 12</li>
+                    <li class="intro__list-item"><span>Объектов культурного наследия ЮНЕСКО</span> 16</li>
+                    <li class="intro__list-item"><span>Природных заповедников</span> 105</li>
+                    <li class="intro__list-item"><span>Аэропортов</span> 241</li>
+                </ul>
             </section>
           <section class="photo-grid">
                 <img src="sprint-3-images/photo-grid-train.jpg" alt="Фото" class="photo-grid__item">
@@ -116,7 +119,7 @@
             </section>
            <section class="cover">
                 <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover__link"></a>
-                <h2 class="cover__title">До Байкала на собаках</h2>
+                <h2 class="cover__title">До Байкала «на собаках»</h2>
                 <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
             </section>
         </main>
@@ -133,5 +136,6 @@
             </div>
         </footer>
     </div>
+</div>
 </body>
 </html> 

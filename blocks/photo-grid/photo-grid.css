@@ -2,8 +2,22 @@
     margin-left: 4%;
     margin-right: 4%;
     width: 93%;
-    height: 10%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr)); 
     margin-top: 92px;
+    gap: 16px;
 } 
+
+@media screen and (max-width: 1024px) {
+    .photo-grid {
+        margin-top: 92px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .photo-grid {
+        margin-top: 64px;
+        grid-template-columns: repeat(auto-fit, minmax(288px, 1fr)); 
+        gap: 12px;
+    }
+}

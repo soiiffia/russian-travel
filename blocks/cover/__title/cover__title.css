@@ -7,9 +7,26 @@
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
-/* or 106% */
     text-align: center;
     color: #FFFFFF;
     position: relative;
     z-index: 2;
+}
+
+@media screen and (max-width: 720px) {
+    .cover__title {
+        margin: 0;
+        width: 100%;
+        font-size: 40px;
+        line-height: 35px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__title {
+        margin: 0;
+        width: 100%;
+        font-size: 32px;
+        line-height: 35px;
+    }
 }

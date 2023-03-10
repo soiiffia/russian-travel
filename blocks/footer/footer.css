@@ -9,3 +9,25 @@
     font-family: 'Inter';
     font-style: normal;
 }
+
+@media screen and (max-width: 720px) {
+    .footer {
+        margin: 0;
+        padding: 0;
+        margin-left: 5%;
+        margin-top: 64px;
+        row-gap: 48px;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer {
+        margin: 0;
+        padding: 0;
+        margin-left: 5%;
+        margin-top: 64px;
+        row-gap: 48px;
+        flex-direction: column;
+    }
+}

@@ -1,4 +1,3 @@
-
 .places__title {
     width: 100%;
     max-width: 460px;
@@ -9,4 +8,13 @@
     margin: 0;
     grid-area: title;
     font-family: 'Inter';
+}
+
+@media screen and (max-width: 320px) {
+    .places__title {
+        margin-left: 5%;
+        font-size: 32px;
+        line-height: 35px;
+        width: 90%;
+    }
 }

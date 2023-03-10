@@ -1,31 +1,18 @@
 .header__link {
     display: flex;
+    justify-content: space-between;
+    font-family: 'Inter';
+    font-style: normal;
     gap: 18px;
-    width: 7%;
-    min-height: 54%;
-    margin-top: 28px;
+    max-width: 77px;
+    min-height: 29px;
+    margin-top: 46px;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 320px) {
     .header__link {
-      max-width: 100%;
+     margin-top: 0;
     }
-  }
+}
 
-  @media screen and (max-width: 1024px) {
-    .header__link {
-      max-width: 7%;
-    }
-  }
 
-  @media screen and (max-width: 767px) {
-    .header__link {
-      max-width: 7%;
-    }
-  }
-
-  @media screen and (max-width: 767px) {
-    .header__link {
-      max-width: 7%;
-    }
-  }
