@@ -12,6 +12,19 @@
     z-index: 2;
 }
 
+@media screen and (max-width: 1024px) {
+    .cover__title {
+        margin: 0;
+        width: 54%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__title {
+        width: 73%;
+    }
+}
+
 @media screen and (max-width: 720px) {
     .cover__title {
         margin: 0;

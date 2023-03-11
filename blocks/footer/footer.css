@@ -10,6 +10,14 @@
     font-style: normal;
 }
 
+@media screen and (max-width: 768px) {
+    .footer {
+        margin-left: 3%;
+        margin-top: 92px;
+    }
+}
+
+
 @media screen and (max-width: 720px) {
     .footer {
         margin: 0;
