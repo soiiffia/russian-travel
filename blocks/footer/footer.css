@@ -8,12 +8,12 @@
     justify-content: space-between;
     font-family: 'Inter';
     font-style: normal;
+    padding-bottom: 24px;
 }
 
 @media screen and (max-width: 768px) {
     .footer {
         margin-left: 3%;
-        margin-top: 92px;
     }
 }
 
@@ -29,13 +29,3 @@
     }
 }
 
-@media screen and (max-width: 320px) {
-    .footer {
-        margin: 0;
-        padding: 0;
-        margin-left: 5%;
-        margin-top: 64px;
-        row-gap: 48px;
-        flex-direction: column;
-    }
-}

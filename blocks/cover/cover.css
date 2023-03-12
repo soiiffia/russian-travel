@@ -2,18 +2,12 @@
     width: 93%;
     min-height: 740px;
     background-size: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
     position: relative;
     background-image: url(../../sprint-3-images/cover-trains.jpg);
     margin-left: 4%;
     margin-right: 4%;
-    margin-top: 92px;
+    margin-top: 90px;
     z-index: 0;
-    row-gap: 32px;
     background-repeat: no-repeat;
 }
   
@@ -28,17 +22,13 @@
   
   @media screen and (max-width: 768px) {
     .cover {
-      width: 100%;
       min-height: 480px;
     }
   }
 
   @media screen and (max-width: 720px) {
     .cover {
-      width: 100%;
       min-height: 400px;
-      margin-left: 0;
-      margin-right: 0;
       margin: 0;
       padding: 0;
       gap: 16px;
@@ -49,10 +39,6 @@
     .cover {
       width: 100%;
       min-height: 200px;
-      margin-left: 0;
-      margin-right: 0;
-      margin: 0;
-      padding: 0;
-      gap: 16px;
+      margin-top: 66px;
     }
   }

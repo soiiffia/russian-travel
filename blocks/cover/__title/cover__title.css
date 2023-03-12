@@ -1,6 +1,6 @@
 .cover__title {
     width: 47%;
-    margin: 0 auto 32px;
+    margin: 0 auto;
     position: relative;
     font-family: 'Inter';
     font-style: normal;
@@ -14,7 +14,6 @@
 
 @media screen and (max-width: 1024px) {
     .cover__title {
-        margin: 0;
         width: 54%;
     }
 }
@@ -27,7 +26,6 @@
 
 @media screen and (max-width: 720px) {
     .cover__title {
-        margin: 0;
         width: 100%;
         font-size: 40px;
         line-height: 35px;
@@ -36,9 +34,6 @@
 
 @media screen and (max-width: 320px) {
     .cover__title {
-        margin: 0;
-        width: 100%;
         font-size: 32px;
-        line-height: 35px;
     }
 }

@@ -1,5 +1,5 @@
 .cover__subtitle {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     width: 360px;
     font-family: 'Inter';
@@ -15,21 +15,18 @@
 
 @media screen and (max-width: 1024px) {
     .cover__subtitle {
-        margin: 0;
         width: 35%;
     }
 }
 
 @media screen and (max-width: 768px) {
     .cover__subtitle {
-        margin: 0;
         width: 47%;
     }
 }
 
 @media screen and (max-width: 720px) {
     .cover__subtitle {
-        margin: 0;
         width: 100%;
         font-size: 20px;
         line-height: 20px;
@@ -38,8 +35,6 @@
 
 @media screen and (max-width: 320px) {
     .cover__subtitle {
-        margin: 0;
-        width: 100%;
         font-size: 14px;
         line-height: 16px;
     }

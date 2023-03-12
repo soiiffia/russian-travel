@@ -12,17 +12,3 @@
         margin-left: 5%;
     }
 }
-
-@media screen and (max-width: 746px) {
-    .places__paragraphs {
-        width: 90%;
-        margin-left: 5%;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .places__paragraphs {
-        width: 90%;
-        margin-left: 5%;
-    }
-}

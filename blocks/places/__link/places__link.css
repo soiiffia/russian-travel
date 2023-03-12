@@ -4,6 +4,7 @@
     font-weight: 400;
     line-height: 1.2;
     font-family: 'Inter';
+    transition: opacity 0.4s linear;
 }
 
 .places__link:hover {
@@ -11,14 +12,6 @@
 }
 
 @media screen and (max-width: 746px) {
-    .places__link {
-        font-size: 18px;
-        line-height: 22px;  
-    }
-}
-
-
-@media screen and (max-width: 320px) {
     .places__link {
         font-size: 18px;
         line-height: 22px;  
