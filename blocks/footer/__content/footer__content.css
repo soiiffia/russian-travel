@@ -11,10 +11,3 @@
         row-gap: 32px;
     }
 }
-
-@media screen and (max-width: 320px) {
-    .footer__content {
-        flex-direction: column;
-        row-gap: 32px;
-    }
-}
