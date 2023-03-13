@@ -1,4 +1,4 @@
 .intro__list-item_font-weight_bold {
     font-weight: 700;
-    font-family: 'Inter';
+    font-family: 'Inter', 'Arial', sans-serif;
 }

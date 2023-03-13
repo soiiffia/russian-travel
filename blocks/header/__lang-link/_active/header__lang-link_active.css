@@ -1,4 +1,4 @@
 .header__lang-link_active {
     text-decoration: underline;
-    font-family: 'Inter';
+    font-family: 'Inter', 'Arial', sans-serif;
 }

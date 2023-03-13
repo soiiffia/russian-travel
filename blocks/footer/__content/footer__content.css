@@ -1,7 +1,7 @@
 .footer__content {
     display: flex;
     column-gap: 18px;
-    font-family: 'Inter';
+    font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
 }
 

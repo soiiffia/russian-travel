@@ -1,6 +1,6 @@
 .cover__link {
     min-height: 740px;
-    font-family: 'Inter';
+    font-family: 'Inter', 'Arial', sans-serif;
     width: 100%;
     text-decoration: none;
     display: flex;

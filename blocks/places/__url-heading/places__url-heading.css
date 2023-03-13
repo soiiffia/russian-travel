@@ -6,6 +6,6 @@
     margin-top: 0;
     margin-bottom: 12px;
     text-decoration: none;
-    font-family: 'Inter';
+    font-family: 'Inter', 'Arial', sans-serif;
     letter-spacing: 2px;
 }
