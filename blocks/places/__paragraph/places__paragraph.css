@@ -19,15 +19,8 @@
     }
 }
 
-
 @media screen and (max-width: 768px) {
     .places__paragraph:first-child {
-        margin-bottom: 25px;
-      }
-}
-
-@media screen and (max-width: 320px) {
-    .places__paragraph:first-child {
-        margin-bottom: 25px;
+        margin-bottom: 0;
       }
 }

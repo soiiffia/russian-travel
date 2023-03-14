@@ -31,6 +31,7 @@
         margin-right: 24px;
         width: 720px;
         row-gap: 70px;
+        margin-bottom: 90px;
     }
 }
 
@@ -43,4 +44,10 @@
     }
 }
 
+
+@media screen and (max-width: 320px) {
+    .places {
+        margin-bottom: 0;
+    }
+}
 
